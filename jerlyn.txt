@@ -1,3 +1,28 @@
 Hello World
 username: JerlynPeh
 https://github.com/JerlynPeh/2102
+
+have to install git for cmd in personal comp.
+
+to clone repose from cloud to local mach: 
+git clone <link from repose>
+enter
+
+
+to upload from local:
+put file in the local repos location
+cd into repose name, eg cd 2102
+sit status
+git add filename.ext --> one file
+   git add -all  ---> all files
+git commit -m "write message"
+git push origin master --> origin == local machine, master == cloud
+
+
+to make a local folder to put in cloud rep:
+mkdir, cd into newDir/rep folder
+git init
+git add filename.ext
+-- create a new repos in the cloud repos, copy https link
+git remote add origin link
+git push origin master
